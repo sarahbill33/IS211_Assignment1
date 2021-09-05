@@ -5,7 +5,7 @@ class Book:
         self.author = author
         self.title = title
     def display(self):
-        print(self.title)
+        print(self.title+" written by "+self.author)
 
 
 if __name__ == "__main__":
